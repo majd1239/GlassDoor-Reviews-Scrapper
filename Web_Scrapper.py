@@ -2,7 +2,7 @@ from WBClass import Scrapper
 import time
 
 url = 'https://www.glassdoor.com/Reviews/Accenture-Chicago-Reviews-EI_IE4138.0,9_IL.10,17_IM167.htm'
-filename = 'trial.csv'
+filename = 'reviews.csv'
 Result = []
 
 start = time.time()
