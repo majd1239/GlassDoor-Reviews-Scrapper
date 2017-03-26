@@ -7,8 +7,8 @@ from selenium.webdriver.common.keys import Keys
 from bs4 import BeautifulSoup as BS4
 import time
 
-USERNAME = "mtakie2@uic.edu"
-PASSWORD = "glassdoor1239"
+USERNAME = ""
+PASSWORD = ""
 
 class Scrapper(object):
     def __init__(self):
