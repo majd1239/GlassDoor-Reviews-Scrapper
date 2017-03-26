@@ -1,8 +1,8 @@
 # GlassDoor-Reviews-Scrapper
 
 This python script collects all the reviews of a company on glassdoor.com.<br>
-It organize the reviews into the headline,date,rating,job title,job status,pros,cons,management advice and the outlook.<Br>
-All the data is then exported to a csv file.<br>
+It organize the reviews in a csv file with the following headers:<br>
+<b>headline, date, rating, job title, job status, pros, cons, management advice and outlook.</b><Br>
 
 How to run:<br>
 Insert the company glassdoor url in the Web_Scrapper.py file and your glassdoor username/password in the WBClass.py.<br>
