@@ -11,7 +11,7 @@ SR = Scrapper()
 print ('Getting reviews page 1...')
 SR.fetch_page(url)
 print ('parsing...',)
-data = SR.parse_data
+data = SR.parse_data()
 print (len(data), 'reviews found on this page.')
 Result.extend(data)
 
@@ -23,7 +23,7 @@ while Next_Page:
         print ('Getting reviews page %s...'%(count))
         SR.fetch_page(Next_Page)
         print ('parsing...')
-        data = SR.parse_data
+        data = SR.parse_data()
         print (len(data), 'reviews found on this page.')
         Result.extend(data)
         count +=1
